@@ -31,6 +31,10 @@ body {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	line-height: 1.2;
 	background-color: hsl(210, 46%, 95%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 /* Testimonial Grid */
@@ -46,6 +50,7 @@ body {
 	color: var(--clr-neutral-1000);
 	border-radius: 1rem;
 	padding: 1.5rem 1.875rem;
+	box-shadow: 0 16px 39px hsla(0, 0%, 0%, 0.1);
 }
 
 .testimonial-head {
@@ -75,6 +80,7 @@ body {
 .description {
 	font-size: 0.8125rem;
 	color: var(--clr-neutral-800);
+	line-height: 1.5;
 }
 
 /* Utilities */
@@ -98,4 +104,26 @@ body {
 .bg-light .verified,
 .bg-light .description {
 	color: var(--clr-neutral-300);
+}
+
+@media (min-width: 64rem) {
+	.testimonials-grid {
+		grid-template-columns: repeat(4, 1fr);
+		row-gap: 1.5rem;
+		column-gap: 2rem;
+	}
+
+	.testimonial:first-child,
+	.testimonial:nth-child(4) {
+		grid-column: span 2;
+	}
+
+	.testimonial:last-child {
+		grid-column: 4 / 5;
+		grid-row: 1 / 3;
+	}
+
+	.lead {
+		font-size: 1.25rem;
+	}
 }
