@@ -28,8 +28,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Here!](https://github.com/sheronimo/frontendmentor-huddlelanding-alt)
-- Live Site URL: [Here!](https://sheronimo.github.io/frontendmentor-huddlelanding-alt/)
+- Solution URL: [Here!](https://github.com/sheronimo/frontendmentor-testimonialsgrid)
+- Live Site URL: [Here!](https://sheronimo.github.io/frontendmentor-testimonialsgrid/)
 
 ## My process
 
