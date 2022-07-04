@@ -43,7 +43,6 @@ body {
 	display: grid;
 	grid-template-columns: 1fr;
 	row-gap: 1.5rem;
-	column-gap: 1.875rem;
 	max-width: 69.375rem;
 }
 
@@ -53,6 +52,12 @@ body {
 	border-radius: 1rem;
 	padding: 1.5rem 2rem;
 	box-shadow: 0 16px 39px hsla(0, 0%, 0%, 0.1);
+}
+
+.testimonial:first-child {
+	background-image: url('./images/bg-pattern-quotation.svg');
+	background-repeat: no-repeat;
+	background-position: 90% top;
 }
 
 .testimonial-head {
@@ -113,7 +118,7 @@ body {
 	.testimonials-grid {
 		grid-template-columns: repeat(4, 1fr);
 		row-gap: 1.5rem;
-		column-gap: 2rem;
+		column-gap: 1.875rem;
 	}
 
 	.testimonial:first-child,
