@@ -35,21 +35,23 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 4.25rem 1.5rem;
 }
 
 /* Testimonial Grid */
 .testimonials-grid {
-	padding: 4.25rem 1.875rem;
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 1.5rem;
+	row-gap: 1.5rem;
+	column-gap: 1.875rem;
+	max-width: 69.375rem;
 }
 
 /* Testimonial */
 .testimonial {
 	color: var(--clr-neutral-1000);
 	border-radius: 1rem;
-	padding: 1.5rem 1.875rem;
+	padding: 1.5rem 2rem;
 	box-shadow: 0 16px 39px hsla(0, 0%, 0%, 0.1);
 }
 
@@ -75,12 +77,13 @@ body {
 .lead {
 	font-size: 1rem;
 	margin-bottom: 1rem;
+	letter-spacing: 1px;
 }
 
 .description {
 	font-size: 0.8125rem;
 	color: var(--clr-neutral-800);
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 /* Utilities */
